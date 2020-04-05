@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!--bootstrap css-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <!--personal css-->
+        <link rel="stylesheet" href="1.css">
+    </head>
+<body>
+    <div class="wrapper">
+       <nav class="nav">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand" href="#">Newsfeed</a>
+                <a class="navbar-brand" href="#">User</a>
+                <a class="navbar-brand" href="#">Admin</a>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="2.html">Add new user</a>
+                </div>
+            </nav>
+       </nav> 
+       <main class="main">
+           <div class="card">
+               <img class="card-heading-image" src="https://picsum.photos/200" alt="card heading">
+               <h4>BENINA MOMBILO</h4>
+               <p>email:beninamo2@gmail.com</p>
+               <p>cell: 0937281567</p> 
+
+               <!-- Button to Open the 2nd Modal -->
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#user1Modal" >
+                    User Info
+                </button>
+        
+                <!--the modal-->
+                <div class="modal" id="user1Modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!--modal header-->
+                            <div class="modal-header">
+                                <h4 class="modal-title">More Info</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!--modal body-->
+                            <div class="modal-body">
+                                <p>12 Caledon street, Woodstock</p>
+                                <p>Next of Kin: Alex Victor</p>
+                                <p>Relationship: Brother</p>
+                                <p>email: alex37829@gmail.com</p>
+                                <p>cell: 0293847562</p>
+
+                            </div>
+
+                            <!--modal footer-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" >Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--DELETE MODAL-->
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+                    Delete
+                </button>
+  
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Do you want to delete this user ?
+                            </div>
+  
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">YES</button>
+                                <button type="button" class="btn btn-success" data-dismiss="modal">NO</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <!--second card-->
+           <div class="card">
+                <img class="card-heading-image" src="https://picsum.photos/200" alt="card heading">
+                <h4>PRAISE SIMATI</h4>
+                <p>email:simatiH3@gmail.com</p>
+                <p>cell: 0291827364</p>
+
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#user2Modal">
+                    User Info
+                </button>
+
+                <!--the modal-->
+                <div class="modal" id="user2Modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!--modal head-->
+                            <div class="modal-header">
+                                <h4 class="modal-title">More Info</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <!--modal body-->
+                            <div class="modal-body">
+                                <p>12 Caledon street, Woodstock</p>
+                                <p>Next of Kin: Prince Simati</p>
+                                <p>Relationship: Brother</p>
+                                <p>email: prince37829@gmail.com</p>
+                                <p>cell: 0293847562</p>
+                            </div>
+                            <!--modal footer-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" >Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--DELETE MODAL-->
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+                    Delete
+                </button>
+  
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Do you want to delete this user ?
+                            </div>
+  
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">YES</button>
+                                <button type="button" class="btn btn-success" data-dismiss="modal">NO</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <!--3rd card-->
+           <div class="card">
+                <img class="card-heading-image" src="https://picsum.photos/200" alt="card heading">
+                <h4>KAITLYN ALLEN</h4>
+                <p>email:biggirl2@gmail.com</p>
+                <p>cell: 0489387267</p>
+
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#user3Modal">
+                    User Info
+                </button>
+
+                <!--the modal-->
+                <div class="modal" id="user3Modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!--modal header-->
+                            <div class="modal-header">
+                                <h4 class="modal-title">More Info</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!--modal body-->
+                            <div class="modal-body">
+                                <p>12 Caledon street, Woodstock</p>
+                                <p>Next of Kin: Kaylim Allen</p>
+                                <p>Relationship: Husband</p>
+                                <p>email: Kaylim37829@gmail.com</p>
+                                <p>cell: 0293847562</p>
+                            </div>
+
+                            <!--modal footer-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" >Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--DELETE MODAL-->
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+                    Delete
+                </button>
+  
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Do you want to delete this user ?
+                            </div>
+  
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">YES</button>
+                                <button type="button" class="btn btn-success" data-dismiss="modal">NO</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <!--4th card-->
+           <div class="card" >
+                <img class="card-heading-image" src="https://picsum.photos/200" alt="card heading">
+                <h4>CONOR RILEY</h4>
+                <p>email:riley3@gmail.com</p>
+                <p>cell: 0938476256</p>
+
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#user4Modal">
+                    User Info
+                </button>
+
+                <!--the modal-->
+                <div class="modal" id="user4Modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!--modal header-->
+                            <div class="modal-header">
+                                <h4 class="modal-title">More Info</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!--modal body-->
+                            <div class="modal-body">
+                                <p>12 Caledon street, Woodstock</p>
+                                <p>Next of Kin: Charlene Riley</p>
+                                <p>Relationship: Mother</p>
+                                <p>email: Charlene37829@gmail.com</p>
+                                <p>cell: 0293847562</p>
+                            </div>
+
+                            <!--modal footer-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" >Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--DELETE MODAL-->
+                <!-- Button to Open the Modal -->
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+                    Delete
+                </button>
+  
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Do you want to delete this user ?
+                            </div>
+  
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">YES</button>
+                                <button type="button" class="btn btn-success" data-dismiss="modal">NO</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </main>
+    </div>
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                               
+</body>
+</html>
